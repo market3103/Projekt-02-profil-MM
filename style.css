@@ -17,5 +17,108 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  padding: 0px;
+  margin:30px;
+  font-family:
 }
+
+.foto{
+  margin: 0;
+  padding:0;
+  position: relative;
+}
+
+.profil{
+background-color:#31363b;
+width: 265px;
+}
+@font-face {
+  font-family: montserrat;
+  src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: source sans pro;
+  src: url(SourceSansPro-Regular.ttf);
+}
+h1{
+  color:white;
+  font-family: 'montserrat';
+}
+p{
+  color:grey;
+  font-family:'source sans pro';
+}
+
+.foto{
+  width: 100%;
+  }
+
+ .Jana{
+  padding:0;
+}
+ 
+.logo{
+  border:solid #b92e81;
+  border-radius: 50%;
+  background-color: #b92e81;
+  position: absolute;
+  left:230px;
+  top: 180px;
+}
+
+.obsah{
+  padding:15px;
+}
+.odkazy{
+  display:flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-family: 'montserrat';
+}
+a{
+  text-decoration: none;
+}
+.odkazy a{
+  color:grey;
+  font-weight: bold;
+  font-size:medium;
+  font-family: monserrat;
+  border:solid #3f464d 2px;
+  padding: 10px;
+  display: flex
+  }
+li{
+  text-decoration: none;
+}
+.portfolio{
+  width:265px;
+  height: 40px;
+  text-align: center;
+}
+.facebook, .twitter{
+  width: 50%;
+  }
+.fcb{
+  display: flex;
+}
+
+.portfolio a:hover{
+    background-color:#e74c3c;
+    color:white
+}
+.facebook a:hover{
+  background-color:#3b5998;
+  color:white;
+  }
+.twitter a:hover{
+  background-color:#1da1f2;
+  color:white
+}
+ul{
+  padding:0px;
+  }
+.facebook a{
+  text-align: center;
+}
+
 
